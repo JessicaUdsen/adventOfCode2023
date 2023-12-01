@@ -18,7 +18,6 @@ input <- readInput(inputFile)
 cleanInput <- input %>%
   mutate(digits = str_replace_all(X1, "[^[:digit:]]", "")) %>%
   mutate(coords = getCoords(digits))
-#cleanInput
 
 total <- sum(cleanInput$coords)
 total
