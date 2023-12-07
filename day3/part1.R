@@ -1,7 +1,7 @@
 library(tidyverse)
 
 input <- read_lines('day3FinalInput.txt')
-
+#Read problem statement here: https://adventofcode.com/2023/day/3
 #This is again heavily inspired by Naturage on the AoC Subreddit.
 #the from and to columns produced give the ranges for neighbors of these numbers.
 #Things I learned here: str_locate_all, between
